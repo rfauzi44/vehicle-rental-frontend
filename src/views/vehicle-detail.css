@@ -67,7 +67,7 @@
 }
 .vehicle-detail-text2 {
   margin: var(--dl-space-space-twounits);
-  font-size: 2rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
 }
