@@ -39,11 +39,13 @@ const Header = () => {
 
   return (
     <header data-role="Header" className={`header-header`}>
+      <a href="/">
       <img
         alt="logo"
         src="/playground_assets/logo%20%5B1%5D-1500w.png"
         className="header-image"
       />
+      </a>
       <div className="header-nav">
         <NavigationLinks
           rootClassName="rootClassName10"

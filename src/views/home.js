@@ -18,7 +18,7 @@ const Home = () => {
       <div className="home-hero">
         <h1 className="home-text">Explore and Travel</h1>
         <span className="home-text1">Vehicle Finder</span>
-        <div className="home-container1">
+        {/* <div className="home-container1">
           <select className="home-select">
             <option value="Option 1" selected>
               Location
@@ -37,7 +37,7 @@ const Home = () => {
             <option value="Option 3">Option 3</option>
           </select>
         </div>
-        <button className="home-button button">Search</button>
+        <button className="home-button button">Search</button> */}
       </div>
       <Vehicle
         endpoint="sort?by=count&order=desc"
@@ -64,7 +64,7 @@ const Home = () => {
         <h2 className="home-text2">Testimonials</h2>
         <img
           alt="image"
-          src="/playground_assets/image%206-300w.png"
+          src="/playground_assets/richard-feynman.300w.webp"
           className="home-image"
         />
         <div className="home-testimonial1">
@@ -87,8 +87,8 @@ const Home = () => {
             </svg>
           </div>
         </div>
-        <span className="home-text6">Edward Newgate</span>
-        <span className="home-text7">Founder Circle</span>
+        <span className="home-text6">Richard Feynman</span>
+        <span className="home-text7">GOAT Scientist</span>
       </div>
       <Footer rootClassName="footer-root-class-name2"></Footer>
     </div>

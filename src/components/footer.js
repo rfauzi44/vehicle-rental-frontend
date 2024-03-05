@@ -4,6 +4,7 @@ import Badges from "../components/badge";
 
 
 import './footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = (props) => {
   return (
@@ -40,6 +41,12 @@ const Footer = (props) => {
       </div>
       <div className="footer-links-container">
         <div className="footer-container1">
+        <div className="footer-container2">
+            <span className="footer-text01">Pages</span>
+            <Link to="/explore" className="footer-text02">Explore</Link>
+          <Link to="/login" className="footer-text03">Login</Link>
+          <Link to="/register" className="footer-text04">Register</Link>
+          </div>
           <div className="footer-container2">
             <span className="footer-text01">Destinations</span>
             <span className="footer-text02">Bali</span>
@@ -63,13 +70,6 @@ const Footer = (props) => {
             <span className="footer-text13">Privacy Policy</span>
             <span className="footer-text14">Legal</span>
             <span className="">Help center</span>
-          </div>
-          <div className="footer-container6">
-            <span className="footer-text16">Resources</span>
-            <span className="footer-text17">Blog</span>
-            <span className="footer-text18">Pricing</span>
-            <span className="footer-text19">Service</span>
-            <span className="">Product</span>
           </div>
         </div>
       </div>
