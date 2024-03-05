@@ -84,6 +84,14 @@ const Register = () => {
             onChange={onChangeInput}
             name="password"
           />
+                    <input
+            type="number"
+            required
+            placeholder="Phone Number"
+            className="register-textinput3 input"
+            onChange={onChangeInput}
+            name="phone_number"
+          />
           <select
             required
             className="register-select input"
@@ -94,14 +102,6 @@ const Register = () => {
             <option value="Male">Male</option>
             <option value="Female">Female</option>
           </select>
-          <input
-            type="number"
-            required
-            placeholder="Phone Number"
-            className="register-textinput3 input"
-            onChange={onChangeInput}
-            name="phone_number"
-          />
           <textarea
             required
             placeholder="Address"
